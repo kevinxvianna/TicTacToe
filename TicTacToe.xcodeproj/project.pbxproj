@@ -11,9 +11,6 @@
 		3C8687162AE38F0F005227E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8687152AE38F0F005227E4 /* ContentView.swift */; };
 		3C8687182AE38F12005227E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8687172AE38F12005227E4 /* Assets.xcassets */; };
 		3C86871B2AE38F12005227E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C86871A2AE38F12005227E4 /* Preview Assets.xcassets */; };
-		3C8687252AE38F13005227E4 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8687242AE38F13005227E4 /* TicTacToeTests.swift */; };
-		3C86872F2AE38F13005227E4 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86872E2AE38F13005227E4 /* TicTacToeUITests.swift */; };
-		3C8687312AE38F13005227E4 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8687302AE38F13005227E4 /* TicTacToeUITestsLaunchTests.swift */; };
 		3C86873E2AE38F39005227E4 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86873D2AE38F39005227E4 /* Cell.swift */; };
 		3C8687402AE3932B005227E4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86873F2AE3932B005227E4 /* GameState.swift */; };
 /* End PBXBuildFile section */
@@ -42,10 +39,7 @@
 		3C8687172AE38F12005227E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C86871A2AE38F12005227E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C8687202AE38F13005227E4 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C8687242AE38F13005227E4 /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
 		3C86872A2AE38F13005227E4 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C86872E2AE38F13005227E4 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
-		3C8687302AE38F13005227E4 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3C86873D2AE38F39005227E4 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		3C86873F2AE3932B005227E4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				3C8687122AE38F0F005227E4 /* TicTacToe */,
-				3C8687232AE38F13005227E4 /* TicTacToeTests */,
-				3C86872D2AE38F13005227E4 /* TicTacToeUITests */,
 				3C8687112AE38F0F005227E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,23 +106,6 @@
 				3C86871A2AE38F12005227E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3C8687232AE38F13005227E4 /* TicTacToeTests */ = {
-			isa = PBXGroup;
-			children = (
-				3C8687242AE38F13005227E4 /* TicTacToeTests.swift */,
-			);
-			path = TicTacToeTests;
-			sourceTree = "<group>";
-		};
-		3C86872D2AE38F13005227E4 /* TicTacToeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3C86872E2AE38F13005227E4 /* TicTacToeUITests.swift */,
-				3C8687302AE38F13005227E4 /* TicTacToeUITestsLaunchTests.swift */,
-			);
-			path = TicTacToeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8687252AE38F13005227E4 /* TicTacToeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C86872F2AE38F13005227E4 /* TicTacToeUITests.swift in Sources */,
-				3C8687312AE38F13005227E4 /* TicTacToeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

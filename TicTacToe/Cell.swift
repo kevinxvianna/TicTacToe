@@ -13,12 +13,12 @@ struct Cell {
     
     func displayTile() -> String {
         switch(tile) {
-        case Tile.Nought:
-            return "O"
-        case Tile.Cross:
-            return "X"
-        default:
-            return ""
+            case Tile.Nought:
+                return "O"
+            case Tile.Cross:
+                return "X"
+            default:
+                return ""
             
         }
     }
